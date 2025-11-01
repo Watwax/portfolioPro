@@ -100,7 +100,7 @@ div {
 
 #contact-btn-box {
     display: flex;
-    gap: 15px;
+    gap: 25px;
 }
 
 #contact button {
@@ -180,17 +180,18 @@ div {
 
 #description {
     font-family: 'sourceSans3';
+    margin-bottom: 40vh;
 }
 
 #description #description-title {
     padding: 10px;
     width: 41%;
-    font-size: 2em;
+    font-size: 2.5em;
     font-weight: bold;
 }
 
 #description #description-title-bar {
-    margin-bottom: 20px;
+    margin-bottom: 40px;
     height: 8px;
     background-color: var(--nuance);
     width: calc(41% + 24px);
@@ -198,10 +199,8 @@ div {
 }
 
 #description #description-text {
-    padding: 50px;
-    border-radius: 20px 20px 20px 0px;
-    max-width: 30vw;
-    box-shadow: 10px 10px var(--nuance);
+    font-size: 1.3em;
+    max-width: 70vw;
 }
 
 .part-header {
