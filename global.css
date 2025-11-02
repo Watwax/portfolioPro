@@ -321,11 +321,13 @@ div {
 .left {
     position: absolute;
     transform: translate(-40vw);
+    z-index: 5;
 }
 
 .right {
     position: absolute;
     transform: translate(40vw);
+    z-index: 5;
 }
 
 .project-btn {
@@ -469,7 +471,7 @@ div {
 
 .passions-info div {
     margin: 5%;
-    font-size: 1.05em;
+    font-size: 1.2vw;
 }
 
 .passions-info img {
